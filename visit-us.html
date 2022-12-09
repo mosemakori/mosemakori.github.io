@@ -67,7 +67,7 @@
             </div>
             <div class="col-md">
                 
-                <form action="mailto:mosemakss@gmail.com" method="GET">
+                <form action="mailto:mosemakss@gmail.com" onchange="mail(this)" method="GET">
                     <div class="form-group">
                         <input class="form-control" type="email" name="email" placeholder="Your email">
                     </div>
@@ -76,6 +76,7 @@
                     </div>
                     <div class="form-group">
                         <button class="btn btn-primary" type="submit">Submit</button>
+                        <button onclick="location.href='mailto:mosemakss@gmail.com';">send mail</button>
                     </div>
                 </form>
             </div>
