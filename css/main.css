@@ -42,14 +42,14 @@ nav {
 .board-photo {
     max-height: 300px;
 }
-.viet {
+/* .viet {
     margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-left: 1px lightgray dotted;
     color: gray;
     background-color: rgba(127,127,127,0.005);
-}
+} */
 .font {
     font-family:'Arima Madurai',cursive;
 }
